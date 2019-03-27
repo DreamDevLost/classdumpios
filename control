@@ -1,9 +1,9 @@
 Package: com.nygard.class-dump-ios
 Name: class-dump-ios
 Depends: 
-Version: 0.0.1
+Version: 1.0.1
 Architecture: iphoneos-arm
-Description: An awesome tool of some sort!!
+Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. It generates declarations for the classes, categories and protocols.  This is the same information provided by using 'otool -ov', but presented as normal Objective-C declarations.
 Maintainer: DreamDevLost
 Author: DreamDevLost
 Section: System
