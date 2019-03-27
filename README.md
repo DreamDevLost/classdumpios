@@ -19,8 +19,8 @@ The source code is also available from my Github repository at:
 Usage
 -----
 
-    class-dump 3.5 (64 bit)
-    Usage: class-dump [options] <mach-o-file>
+    classdumpios 3.5 (64 bit)
+    Usage: classdumpios [options] <mach-o-file>
 
       where options are:
             -a             show instance variable offsets
@@ -42,19 +42,19 @@ Usage
 
 - class-dump AppKit:
 
-    class-dump /System/Library/Frameworks/AppKit.framework
+    classdumpios /System/Library/Frameworks/AppKit.framework
 
 - class-dump UIKit:
 
-    class-dump /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework
+    classdumpios /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework
 
 - class-dump UIKit and all the frameworks it uses:
 
-    class-dump /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-ios 4.3
+    classdumpios /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-ios 4.3
 
-- class-dump UIKit (and all the frameworks it uses) from developer tools that have been installed in /Dev42 instead of /Developer:
+- classdumpios UIKit (and all the frameworks it uses) from developer tools that have been installed in /Dev42 instead of /Developer:
 
-    class-dump /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-root /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+    classdumpios /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-root /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
 
 
 License
