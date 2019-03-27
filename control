@@ -1,4 +1,4 @@
-Package: com.nygard.class-dump-ios
+Package: io.github.ddv.class-dump-ios
 Name: class-dump-ios
 Depends: 
 Version: 1.0.1
