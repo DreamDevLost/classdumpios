@@ -28,7 +28,7 @@
 void print_usage(void)
 {
     fprintf(stderr,
-            "classdumpios %s\n"
+            "class-dump-ios %s\n"
             "Usage: classdumpios [options] <mach-o-file>\n"
             "\n"
             "  where options are:\n"

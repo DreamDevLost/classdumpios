@@ -1,4 +1,4 @@
-class-dump
+class-dump-ios
 ==========
 
 This is a port for Theos build by me.
@@ -12,14 +12,10 @@ The latest version and information is available at:
 
     http://stevenygard.com/projects/class-dump
 
-The source code is also available from my Github repository at:
-
-    https://github.com/nygard/class-dump
-
 Usage
 -----
 
-    classdumpios 3.5 (64 bit)
+    class-dump-ios 1.0.1 (64 bit)
     Usage: classdumpios [options] <mach-o-file>
 
       where options are:
@@ -40,19 +36,19 @@ Usage
             --sdk-mac      specify Mac OS X version (will look in /Developer/SDKs/MacOSX<version>.sdk
             --sdk-root     specify the full SDK root path (or use --sdk-ios/--sdk-mac for a shortcut)
 
-- class-dump AppKit:
+- class-dump-ios AppKit:
 
     classdumpios /System/Library/Frameworks/AppKit.framework
 
-- class-dump UIKit:
+- class-dump-ios UIKit:
 
     classdumpios /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework
 
-- class-dump UIKit and all the frameworks it uses:
+- class-dump-ios UIKit and all the frameworks it uses:
 
     classdumpios /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-ios 4.3
 
-- classdumpios UIKit (and all the frameworks it uses) from developer tools that have been installed in /Dev42 instead of /Developer:
+- class-dump-ios UIKit (and all the frameworks it uses) from developer tools that have been installed in /Dev42 instead of /Developer:
 
     classdumpios /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-root /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
 
@@ -77,9 +73,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-Contact
--------
-
-You may contact the author by:
-   e-mail:  nygard at gmail.com
